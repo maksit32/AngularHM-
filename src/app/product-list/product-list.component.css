@@ -1,0 +1,9 @@
+.container-list {
+  display: flex;
+  gap: 20px;
+}
+
+.container-product {
+  border: 1px solid black;
+  margin-left: 15px;
+}

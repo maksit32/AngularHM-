@@ -1,0 +1,6 @@
+<!--В массиве вывод app-item-->
+<div class="container-list">
+    <div class="container-product" *ngFor="let prd of products">
+        <app-product-item name="{{prd.name}}" description="{{prd.description}}" [price]="prd.price"></app-product-item>
+    </div>
+</div>
